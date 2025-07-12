@@ -78,3 +78,5 @@ const newFrutas = copiaFrutas.map((valor,indice) => {
         nome:valor
     }
 })
+console.log(frutas);
+console.log(newFrutas);
