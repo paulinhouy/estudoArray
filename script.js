@@ -21,3 +21,9 @@ const palavras = ['sol', 'lua', 'planeta', 'estrela', 'céu'];
 
 const novasPalavras =  palavras.filter ((palavra) => palavra.length > 4 )
 console.log(novasPalavras)
+
+
+//usando Map
+
+const palavras = ['sol', 'lua', 'planeta', 'estrela', 'céu'];
+
