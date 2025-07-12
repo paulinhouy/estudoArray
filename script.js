@@ -57,5 +57,17 @@ console.log(mapNumber)
 
 const nomes = ['paulo', 'maria', 'joão'];
 
+const arrayCopia = nomes.map((valor)=> {
+return valor.toLocaleUpperCase();
+})
 
+console.log(arrayCopia)
+
+
+
+
+
+// Criar array de objetos
+// Dado:
+const frutas = ['maçã', 'banana', 'laranja'];
 
