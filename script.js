@@ -71,3 +71,10 @@ console.log(arrayCopia)
 // Dado:
 const frutas = ['maçã', 'banana', 'laranja'];
 
+const copiaFrutas = [...frutas]
+const newFrutas = copiaFrutas.map((valor,indice) => {
+    return {
+        id:indice,
+        nome:valor
+    }
+})
