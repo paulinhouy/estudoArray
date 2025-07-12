@@ -53,4 +53,9 @@ const spreadNumber  = [...number];
 const mapNumber = spreadNumber.map((valor) => valor *  2)
 console.log(mapNumber)
 
+//nomes com letras maiusculas
+
+const nomes = ['paulo', 'maria', 'joão'];
+
+
 
