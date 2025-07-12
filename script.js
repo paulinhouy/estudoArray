@@ -45,3 +45,12 @@ let novoArray = planetasArray.map((valor,indice) => {
 console.log(planetas)
 
 
+//map numeros em dobro
+
+const number =  [1,10,50,100,500]
+const spreadNumber  = [...number];
+
+const mapNumber = spreadNumber.map((valor) => valor *  2)
+console.log(mapNumber)
+
+
