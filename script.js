@@ -80,3 +80,13 @@ const newFrutas = copiaFrutas.map((valor,indice) => {
 })
 console.log(frutas);
 console.log(newFrutas);
+
+
+
+//Somar valor fixo a cada item
+const precos = [10, 20, 30];
+const copiaprecos = [...precos];
+const newprecos = copiaprecos.map((valor) => {
+    return
+})
+
