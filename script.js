@@ -32,11 +32,16 @@ const planetas = {
   3: 'estrela',
   4: 'céu'
 };
+const planetasArray = Object.values(planetas);
+
+let novoArray = planetasArray.map((valor,indice) => {
+    return {
+        id:indice ,
+        nome:valor
+    }
 
 
-const planetasSpread = [...planetas];
-
-const novoArray = planetasSpread.map((valor,indice) => planetasSpreadS. = indice );
+});
 console.log(planetas)
-console.log(novoArray)
+
 
