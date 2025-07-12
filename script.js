@@ -25,11 +25,18 @@ console.log(novasPalavras)
 
 //usando Map
 
-const planetas = ['sol', 'lua', 'planeta', 'estrela', 'céu'];
+const planetas = {
+  0: 'sol',
+  1: 'lua',
+  2: 'planeta',
+  3: 'estrela',
+  4: 'céu'
+};
+
 
 const planetasSpread = [...planetas];
 
-const novoArray = planetasSpread.map((valor,indice) => planetasSpreadS.id = indice );
+const novoArray = planetasSpread.map((valor,indice) => planetasSpreadS. = indice );
 console.log(planetas)
 console.log(novoArray)
 
