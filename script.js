@@ -87,6 +87,7 @@ console.log(newFrutas);
 const precos = [10, 20, 30];
 const copiaprecos = [...precos];
 const newprecos = copiaprecos.map((valor) => {
-    return
+    return valor + 5
 })
+console.log(newprecos);
 
