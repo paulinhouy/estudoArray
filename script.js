@@ -29,5 +29,7 @@ const planetas = ['sol', 'lua', 'planeta', 'estrela', 'céu'];
 
 const planetasSpread = [...planetas];
 
-const novoArray = planetasSpread.map((valor,indice) => valor.id = indice );
+const novoArray = planetasSpread.map((valor,indice) => planetasSpreadS.id = indice );
+console.log(planetas)
+console.log(novoArray)
 
