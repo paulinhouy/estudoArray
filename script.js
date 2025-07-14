@@ -91,3 +91,15 @@ const newprecos = copiaprecos.map((valor) => {
 })
 console.log(newprecos);
 
+
+
+// Reduce juntando strings
+
+const palavra = ['Oi', 'tudo', 'bem?'];
+
+const frase = palavra.reduce((acumulador, valorAtual) => {
+  return acumulador + ' ' + valorAtual;
+}, '');
+
+console.log(frase); // " Oi tudo bem?"
+
